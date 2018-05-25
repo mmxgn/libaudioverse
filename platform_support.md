@@ -149,7 +149,7 @@ The only package that seems to be named differently on different distros is libs
 Roughly:
 
 ```
-git clone http://github.com/camlorn/libaudioverse
+git clone --recursive https://github.com/libaudioverse/libaudioverse.git
 cd libaudioverse
 mkdir build
 cd build
