@@ -11,7 +11,7 @@ setup(
     author_email = "camlorn@camlorn.net",
     url = "http://github.com/camlorn/libaudioverse",
     description = "A library for 3D, environmental audio, and synthesis.",
-    long_description = open('readme.rst').read(),
+    long_description = open('README.rst').read(),
     package_dir = {'libaudioverse': 'libaudioverse'},
     packages = find_packages(),
     package_data = {'libaudioverse':
