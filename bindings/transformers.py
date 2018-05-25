@@ -52,7 +52,7 @@ def strip_suffix(s, suffix):
         return s
 
 def common_prefix(l):
-    return os.path.commonprefix(l)
+    return os.path.commonprefix(list(l))
 
 #infrastructure for printing C function and type prototypes, etc.
 
