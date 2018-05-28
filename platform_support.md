@@ -149,7 +149,7 @@ The only package that seems to be named differently on different distros is libs
 Roughly:
 
 ```
-git clone http://github.com/camlorn/libaudioverse
+git clone https://github.com/mmxgn/libaudioverse.git --recursive
 cd libaudioverse
 mkdir build
 cd build
@@ -157,11 +157,19 @@ cmake ..
 make
 ```
 
-And testing:
+And testing (in root libaudioverse directory):
 
 ```
 ./examples/automation
 ./utils/time_convolution default
+```
+
+For python bindings:
+
+```
+cd build/bindings/python
+python setup.py build
+sudo python setup.py install 
 ```
 
 As with Windows, the first should give audio output and the second should give at least 100 sources as an estimate (at least on Desktops).
