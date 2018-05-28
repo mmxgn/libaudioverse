@@ -31,4 +31,4 @@ script:
 notifications:
   email:
     recipients:
-      - camlorn@camlorn.net
+      - e.t.chourdakis@qmul.ac.uk
