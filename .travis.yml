@@ -10,11 +10,8 @@ matrix:
           sources:
             - ubuntu-toolchain-r-test
           packages:
-            - g++-4.9
-            - gcc-4.9
-      env:
-        - CXX_COMPILER=g++-4.9
-        - C_COMPILER = gcc-4.9
+            - g++
+            - gcc
 
 before_install:
   #This comes from travis CI issue 5326.
@@ -26,7 +23,7 @@ before_install:
 script:
   - mkdir build
   - cd build
-  - cmake -DCMAKE_CXX_COMPILER=$CXX_COMPILER -DCMAKE_C_COMPILER=$C_COMPILER .. && make
+  - cmake .. && make
 
 notifications:
   email:
