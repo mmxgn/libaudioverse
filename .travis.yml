@@ -24,8 +24,7 @@ before_install:
   - sudo python3 -m pip install pycparser jinja2 pypandoc
   - sudo rm /usr/bin/python
   - sudo ln $(which python3) /usr/bin/python
-  - sudo python --version
-
+  
 script:
   - mkdir build
   - cd build
