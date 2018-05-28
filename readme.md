@@ -1,13 +1,12 @@
+
+[![Linux Build Status](https://api.travis-ci.com/mmxgn/libaudioverse.svg?branch=master)](https://api.travis-ci.com/mmxgn/libaudioverse.svg?branch=master)
+
 This is a fork of `libaudioverse/libaudioverse` to fix some errors that prevent it for being built on linux, since the master repo seems to not be very actively maintnained.
 
 Original README.md from `libaudioverse/libaudioverse`:
 
 Libaudioverse
 ==============
-
-[![Windows Build status](https://ci.appveyor.com/api/projects/status/wmoa6isbe8fdmg2c?svg=true)](https://ci.appveyor.com/project/camlorn/libaudioverse)
-
-[![Linux Build Status](https://travis-ci.org/libaudioverse/libaudioverse.svg?branch=master)](https://travis-ci.org/libaudioverse/libaudioverse)
 
 [GitHub](http://github.com/libaudioverse/libaudioverse)
 
