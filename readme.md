@@ -1,3 +1,7 @@
+This is a fork of `libaudioverse/libaudioverse` to fix some errors that prevent it for being built on linux, since the master repo seems to not be very actively maintnained.
+
+Original README.md from `libaudioverse/libaudioverse`:
+
 Libaudioverse
 ==============
 
@@ -70,7 +74,7 @@ Please report bugs and make feature requests using the GitHub issue tracker; thi
 
 ## Building ##
 
-See the [info on supported platforms and build instructions](http://github.com/camlorn/libaudioverse/tree/master/platform_support.md).
+See the [info on supported platforms and build instructions](https://github.com/mmxgn/libaudioverse/blob/master/platform_support.md).
 
 ## Bindings ##
 
