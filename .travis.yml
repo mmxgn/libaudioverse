@@ -1,5 +1,5 @@
 sudo: required
-dist: trusty
+dist: xenial
 language: cpp
 
 matrix:
@@ -10,11 +10,11 @@ matrix:
           sources:
             - ubuntu-toolchain-r-test
           packages:
-            - g++-5
-            - gcc-5
+            - g++-6
+            - gcc-6
       env:
-         - CXX_COMPILER=g++-5
-         - C_COMPILER=gcc-5 
+         - CXX_COMPILER=g++-6
+         - C_COMPILER=gcc-6 
 
 before_install:
   #This comes from travis CI issue 5326.
