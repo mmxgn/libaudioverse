@@ -9,12 +9,12 @@ matrix:
         apt:
           sources:
             - ubuntu-toolchain-r-test
-          packages:
-            - g++-6
-            - gcc-6
-      env:
-         - CXX_COMPILER=g++-6
-         - C_COMPILER=gcc-6 
+#          packages:
+#            - g++-6
+#            - gcc-6
+#      env:
+#         - CXX_COMPILER=g++-6
+#         - C_COMPILER=gcc-6 
 
 before_install:
   #This comes from travis CI issue 5326.
@@ -28,7 +28,8 @@ before_install:
 script:
   - mkdir build
   - cd build
-  - cmake -DCMAKE_CXX_COMPILER=$CXX_COMPILER -DCMAKE_C_COMPILER=$C_COMPILER .. && make
+#  - cmake -DCMAKE_CXX_COMPILER=$CXX_COMPILER -DCMAKE_C_COMPILER=$C_COMPILER .. && make
+  - cmake .. && make
 
 notifications:
   email:
