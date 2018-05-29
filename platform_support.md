@@ -1,4 +1,4 @@
-### Libaudioverse Build Instructions and Platform Support
+# Libaudioverse Build Instructions and Platform Support
 
 This document outlines Libaudioverse's support for various platforms and how to build it on each.  If a platform isn't in this document, it's probably planned for the future (this project will run everywhere, one day).  Supported platforms are currently Windows (X86 only) and Linux (X64 and X86).
 
@@ -33,14 +33,14 @@ You cannot currently reasonably run Libaudioverse on ARM.  It does not have Neon
 
 Some distros change the name of some packages, here are for Ubuntu, and Arch Linux
 
-## For Ubuntu (16.04 and newer)
+### For Ubuntu (16.04 and newer)
 
 ```
 sudo apt-get update
 sudo apt-get install gcc g++ make cmake python3 libboost-all-dev libsndfile-dev libasound2-dev pandoc python3-numpy python3-scipy python3-pip
 sudo python3 --m pip install pycparser jinja2 wheel sphinx pyyaml pypandoc
 ```
-## For Arch Linux
+### For Arch Linux
 ```
 sudo pacman -S gcc make cmake python boost libsndfile alsa-lib pandoc python-numpy python-scipy python-pip python-pycparser python-jinja python-wheel python-sphinx python-pyaml python-pypandoc 
 ```
