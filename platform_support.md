@@ -33,12 +33,12 @@ You cannot currently reasonably run Libaudioverse on ARM.  It does not have Neon
 
 Some distros change the name of some packages, here are for Ubuntu, and Arch Linux
 
-### For Ubuntu (16.04 and newer)
+### For Ubuntu (16.04 and newer) or Debian
 
 ```
 sudo apt-get update
 sudo apt-get install gcc g++ make cmake python3 libboost-all-dev libsndfile-dev libasound2-dev pandoc python3-numpy python3-scipy python3-pip
-sudo python3 --m pip install pycparser jinja2 wheel sphinx pyyaml pypandoc
+sudo python3 -m pip install pycparser jinja2 wheel sphinx pyyaml pypandoc
 ```
 ### For Arch Linux
 ```
