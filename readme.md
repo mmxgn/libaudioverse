@@ -1,5 +1,5 @@
 
-[![Linux Build Status](https://api.travis-ci.com/mmxgn/libaudioverse.svg?branch=master)](https://api.travis-ci.com/mmxgn/libaudioverse.svg?branch=master)
+[![Linux Build Status](https://api.travis-ci.com/mmxgn/libaudioverse.svg?branch=master)](https://travis-ci.org/mmxgn/libaudioverse)
 
 This is a fork of `libaudioverse/libaudioverse` to fix some errors that prevent it for being built on linux, since the master repo is not very actively maintained because of [real life issues](http://camlorn.net/posts/2018-01/libaudioverse-ends.html) by the original author. I hope that everything turns out alright to them soon and they continue maintenance of the project.
 
